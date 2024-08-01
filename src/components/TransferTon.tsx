@@ -8,7 +8,7 @@ export function TransferTon() {
   const { sender, connected } = useTonConnect();
 
   const [tonAmount, setTonAmount] = useState("0.01");
-  const [text, setText] = useState("");
+  const [text, setText] = useState("NA");
   const [tonRecipient, setTonRecipient] = useState(
     "EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c"
   );
